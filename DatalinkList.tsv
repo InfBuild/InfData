@@ -1,0 +1,16 @@
+# InfData データリンク情報
+# Licensed under CC0
+# http://creativecommons.org/publicdomain/zero/1.0/deed.ja
+#
+# Name	データリンク名です。
+# English Name	英語名です。
+# Cst.	データリンクのコストです。現在は使用されておらず、どのデータリンクを装備してもコストが上昇することはありません。 
+ID	Name	English Name	Cst.
+1	ベーシックセット	Basic Set	65
+2	クリティカル	Critical	65
+3	ロングレンジ	Long Range	90
+4	ハイホーミング+	High Homing+	90
+5	クイックターン	Quick Turn	65
+6	アンチストール	Anti-Stall	40
+7	クイックリロード+	Quick Recharge+	90
+8	クイックロックオン+	Quick Lock On+	40

@@ -1,0 +1,205 @@
+# InfData パーツ情報
+# Licensed under CC0
+# http://creativecommons.org/publicdomain/zero/1.0/deed.ja
+#
+# ID	項目ごとに重複しない数値です。パーツの識別にお使いいただけます。
+# Name	パーツの名前です。
+# English Name	英語名です。
+# Cst.	パーツのコストです。
+# Category	分類です。
+# Group	グループ用文字列です。同じグループ用文字列を持つパーツは同時に装備できません。
+# SP.W	適用対象となる兵装です。
+# Role	装備可能な機体のロールです。デフォルトではロールを問わす装備できます。
+# Slot	装備するスロットです。
+# Slot Usage	消費するスロット数です。
+# Power	装備時にダメージに加算される威力補正値です。
+# Hits	装備時に増加するヒット数です。
+ID	Name	English Name	Cst.	Category	Group	SP.W	Role	Slot	Slot Usage	Power	Hits
+1	強化型エンジンノズル S	Enhanced Engine Nozzle S	15	SPEED	SP-N		F,M,A,B	BODY	5		
+2	強化型エンジンノズル M	Enhanced Engine Nozzle M	40	SPEED	SP-N		F,M,A,B	BODY	7		
+3	強化型エンジンノズル L	Enhanced Engine Nozzle L	65	SPEED	SP-N		F,M,A,B	BODY	9		
+4	強化型エンジンノズル LL	Enhanced Engine Nozzle LL	90	SPEED	SP-N		F,M,A,B	BODY	11		
+162	高出力型エンジン S	High Output Engine S	15	SPEED	SP-PF-N		PF	BODY	5		
+# 163	高出力型エンジン M	High Output Engine M	40	SPEED	SP-PF-N		PF	BODY	7		
+# 164	高出力型エンジン L	High Output Engine L	65	SPEED	SP-PF-N		PF	BODY	9		
+5	高性能エアブレーキ S	High Spec Airbrakes S	15	MOBILITY	MO-B			BODY	5		
+6	高性能エアブレーキ M	High Spec Airbrakes M	40	MOBILITY	MO-B			BODY	7		
+7	高性能エアブレーキ L	High Spec Airbrakes L	65	MOBILITY	MO-B			BODY	9		
+# 8	高性能エアブレーキ LL	High Spec Airbrakes LL	90	MOBILITY	MO-B			BODY	9		
+9	強化型エンジンコンプレッサ S	Enhanced Engine Compressor S	40	SPEED	SP-C		F,M,A,B	BODY	6		
+10	強化型エンジンコンプレッサ M	Enhanced Engine Compressor M	65	SPEED	SP-C		F,M,A,B	BODY	8		
+11	強化型エンジンコンプレッサ L	Enhanced Engine Compressor L	90	SPEED	SP-C		F,M,A,B	BODY	10		
+12	強化型エンジンコンプレッサ LL	Enhanced Engine Compressor LL	120	SPEED	SP-C		F,M,A,B	BODY	13		
+13	軽量型エンジンコンプレッサ	Lightweight Engine Compressor	55	SPEED	SP-C		F,M,A,B	BODY	4		
+14	推力向上改修型エンジン	Enhanced Propulsion Engine	45	SPEED			F,M,A,B	BODY	9		
+165	高性能過給機 S	High Spec Supercharger S	40	SPEED	SP-PF-C		PF	BODY	6		
+# 166	高性能過給機 M	High Spec Supercharger M	65	SPEED	SP-PF-C		PF	BODY	8		
+# 167	高性能過給機 L	High Spec Supercharger L	90	SPEED	SP-PF-C		PF	BODY	10		
+15	新型主翼アクチュエータ (ピッチ) S	High Spec Main Wing Actuator (Pitch) S	15	MOBILITY	MO-P			BODY	6		
+16	新型主翼アクチュエータ (ピッチ) M	High Spec Main Wing Actuator (Pitch) M	40	MOBILITY	MO-P			BODY	7		
+17	新型主翼アクチュエータ (ピッチ) L	High Spec Main Wing Actuator (Pitch) L	65	MOBILITY	MO-P			BODY	8		
+# 18	新型主翼アクチュエータ (ピッチ) LL	High Spec Main Wing Actuator (Pitch) LL	90	MOBILITY	MO-P			BODY	8		
+19	軽量型主翼アクチュエータ (ピッチ)	Lightweight Main Wing Actuator (Pitch)	30	MOBILITY	MO-P			BODY	4		
+20	新型主翼アクチュエータ (ロール) S	High Spec Main Wing Actuator (Roll) S	15	MOBILITY	MO-R			BODY	6		
+21	新型主翼アクチュエータ (ロール) M	High Spec Main Wing Actuator (Roll) M	40	MOBILITY	MO-R			BODY	7		
+22	新型主翼アクチュエータ (ロール) L	High Spec Main Wing Actuator (Roll) L	65	MOBILITY	MO-R			BODY	8		
+# 23	新型主翼アクチュエータ (ロール) LL	High Spec Main Wing Actuator (Roll) LL	90	MOBILITY	MO-R			BODY	8		
+24	軽量型主翼アクチュエータ (ロール)	Lightweight Main Wing Actuator (Roll)	30	MOBILITY	MO-R			BODY	4		
+25	新型尾翼アクチュエータ (ヨー) S	High Spec Tail Actuator (Yaw) S	15	MOBILITY	MO-Y			BODY	5		
+26	新型尾翼アクチュエータ (ヨー) M	High Spec Tail Actuator (Yaw) M	40	MOBILITY	MO-Y			BODY	7		
+27	新型尾翼アクチュエータ (ヨー) L	High Spec Tail Actuator (Yaw) L	65	MOBILITY	MO-Y			BODY	8		
+# 28	新型尾翼アクチュエータ (ヨー) LL	High Spec Tail Actuator (Yaw) LL	90	MOBILITY	MO-Y			BODY	8		
+29	軽量型尾翼アクチュエータ (ヨー)	Lightweight Tail Actuator (Yaw)	30	MOBILITY	MO-Y			BODY	3		
+151	高速域対応型昇降舵 (ピッチ) S	High Speed Adapted Elevator S	10	MOBILITY				BODY	5		
+# 152	高速域対応型昇降舵 (ピッチ) M	High Speed Adapted Elevator M	10	MOBILITY				BODY	7		
+# 153	高速域対応型昇降舵 (ピッチ) L	High Speed Adapted Elevator L	10	MOBILITY				BODY	8		
+145	高速域対応型補助翼 (ロール) S	High Speed Adapted Aileron S	10	MOBILITY				BODY	5		
+# 146	高速域対応型補助翼 (ロール) M	High Speed Adapted Aileron M	10	MOBILITY				BODY	7		
+# 147	高速域対応型補助翼 (ロール) L	High Speed Adapted Aileron L	10	MOBILITY				BODY	8		
+148	高速域対応型方向舵 (ヨー) S	High Speed Adapted Rudder S	10	MOBILITY				BODY	5		
+# 149	高速域対応型方向舵 (ヨー) M	High Speed Adapted Rudder M	10	MOBILITY				BODY	7		
+# 150	高速域対応型方向舵 (ヨー) L	High Speed Adapted Rudder L	10	MOBILITY				BODY	8		
+30	飛行力学制御モジュール	Flight Dynamics Control Module	15	MOBILITY				BODY	7		
+31	コクピット保護装甲 S	Cockpit Protective Armor S	40	DEFENSE	DF-A			BODY	6		
+32	コクピット保護装甲 M	Cockpit Protective Armor M	65	DEFENSE	DF-A			BODY	8		
+33	コクピット保護装甲 L	Cockpit Protective Armor L	90	DEFENSE	DF-A			BODY	9		
+34	コクピット保護装甲 LL	Cockpit Protective Armor LL	120	DEFENSE	DF-A			BODY	12		
+41	新型ステルス塗料 S	New Stealth Coating S	15	DEFENSE	DF-S			BODY	5		
+42	新型ステルス塗料 M	New Stealth Coating M	40	DEFENSE	DF-S			BODY	7		
+43	新型ステルス塗料 L	New Stealth Coating L	65	DEFENSE	DF-S			BODY	9		
+181	新型ステルス塗料 LL	New Stealth Coating LL	90	DEFENSE	DF-S			BODY	11		
+35	強化フレーム	Enhanced Frame	40	DEFENSE				BODY	7		
+37	自動消火装置 S	Automated Fire Extinguisher S	65	DEFENSE	DF-E			BODY	7		
+38	自動消火装置 M	Automated Fire Extinguisher M	90	DEFENSE	DF-E			BODY	9		
+# 39	自動消火装置 L	Automated Fire Extinguisher L	120	DEFENSE	DF-E			BODY	9		
+40	軽量型自動消火装置	Automated Fire Extinguisher	65	DEFENSE	DF-E			BODY	5		
+36	次世代型新素材装甲	Next Generation Armor	90	DEFENSE				BODY	12		
+182	新型自動妨害装置	New Defense Jamming Device	90	DEFENSE			A,B	BODY	9		
+44	徹甲機関砲弾 S	Armor Piercing Machine Gun Ammunition S	40	GUN	GUN-D			ARMS	6		
+45	徹甲機関砲弾 M	Armor Piercing Machine Gun Ammunition M	65	GUN	GUN-D			ARMS	8		
+46	徹甲機関砲弾 L	Armor Piercing Machine Gun Ammunition L	90	GUN	GUN-D			ARMS	9		
+47	長射程機関砲弾 S	Long Range Machine Gun Ammunition S	15	GUN	GUN-L			ARMS	5		
+48	長射程機関砲弾 M	Long Range Machine Gun Ammunition M	40	GUN	GUN-L			ARMS	7		
+49	長射程機関砲弾 L	Long Range Machine Gun Ammunition L	65	GUN	GUN-L			ARMS	9		
+50	新型機関砲弾 S	New Machine Gun Ammunition S	50	GUN	GUN-N			ARMS	8		
+51	新型機関砲弾 M	New Machine Gun Ammunition M	100	GUN	GUN-N			ARMS	11		
+52	新型機関砲弾 L	New Machine Gun Ammunition L	120	GUN	GUN-N			ARMS	14		
+154	初期生産型機関砲	Early Production Machine Gun	65	GUN	GUN-M		PF	ARMS	8		
+155	長砲身機関砲	Long Barrel Machine Gun	90	GUN	GUN-M		PF	ARMS	8		
+53	改良型弾頭 (MSL) S	Advanced Warheads (MSL) S	40	MSL	MSL-D			ARMS	6	1	
+54	改良型弾頭 (MSL) M	Advanced Warheads (MSL) M	65	MSL	MSL-D			ARMS	8	3	
+55	改良型弾頭 (MSL) L	Advanced Warheads (MSL) L	90	MSL	MSL-D			ARMS	10	4	
+183	軽量型弾頭 (MSL)	Lightweight Warheads (MSL)	55	MSL	MSL-D			ARMS	5	2	
+56	改良型推進剤 (MSL) S	Advanced Propulsion (MSL) S	40	MSL	MSL-S			ARMS	5		
+57	改良型推進剤 (MSL) M	Advanced Propulsion (MSL) M	65	MSL	MSL-S			ARMS	7		
+58	改良型推進剤 (MSL) L	Advanced Propulsion (MSL) L	90	MSL	MSL-S			ARMS	9		
+184	軽量型推進剤 (MSL)	Lightweight Propulsion (MSL)	55	MSL	MSL-S			ARMS	4		
+59	改良型目標識別回路 (MSL) S	Advanced Target Awareness Circuit (MSL) S	40	MSL	MSL-R			ARMS	6		
+60	改良型目標識別回路 (MSL) M	Advanced Target Awareness Circuit (MSL) M	65	MSL	MSL-R			ARMS	8		
+61	改良型目標識別回路 (MSL) L	Advanced Target Awareness Circuit (MSL) L	90	MSL	MSL-R			ARMS	12		
+185	軽量型目標識別回路 (MSL)	Lightweight Target Awareness Circuit (MSL)	55	MSL	MSL-R			ARMS	5		
+62	改良型可動フィン (MSL) S	Advanced Mobile Fin (MSL) S	15	MSL	MSL-H			ARMS	5		
+63	改良型可動フィン (MSL) M	Advanced Mobile Fin (MSL) M	40	MSL	MSL-H			ARMS	7		
+64	改良型可動フィン (MSL) L	Advanced Mobile Fin (MSL) L	65	MSL	MSL-H			ARMS	9		
+65	軽量型可動フィン (MSL)	Lightweight Mobile Fin (MSL)	30	MSL	MSL-H			ARMS	3		
+70	破壊力増強型改修プラン (MSL) S	Plans for Improved Destructive Capabilities (MSL) S	60	MSL	MSL-PD			ARMS	9	1	
+71	破壊力増強型改修プラン (MSL) M	Plans for Improved Destructive Capabilities (MSL) M	120	MSL	MSL-PD			ARMS	12	2	
+72	破壊力増強型改修プラン (MSL) L	Firepower Enhancement Plan (MSL) L	180	MSL	MSL-PD			ARMS	15	3	
+67	誘導性能強化改修プラン (MSL) S	Plans for Improved Homing Capabilities (MSL) S	50	MSL	MSL-PH			ARMS	8		
+68	誘導性能強化改修プラン (MSL) M	Plans for Improved Homing Capabilities (MSL) M	100	MSL	MSL-PH			ARMS	11		
+69	誘導性能強化改修プラン (MSL) L	Homing Enhancement Plan (MSL) L	175	MSL	MSL-PH			ARMS	14		
+66	シーカー強制冷却装置 (MSL)	Seeker Cooling Unit (MSL)	15	MSL				ARMS	7		
+73	高速飛行物体検出装置 (SP.W)	High Speed Flying Object Detection Device (SP.W)	15	SP.M				ARMS	7		
+74	グランドクラッター解析装置 (SP.W)	Ground Clutter Analysis Device (SP.W)	15	SP.M				ARMS	7		
+75	改良型弾頭 (SP.W) S	Advanced Warheads (SP.W) S	40	SP.M	SPM-D			ARMS	7	2	
+76	改良型弾頭 (SP.W) M	Advanced Warheads (SP.W) M	65	SP.M	SPM-D			ARMS	9	4	
+77	改良型弾頭 (SP.W) L	Advanced Warheads (SP.W) L	90	SP.M	SPM-D			ARMS	11	6	
+186	軽量型弾頭 (SP.W)	Lightweight Warheads (SP.W) L	55	SP.M	SPM-D			ARMS	6	3	
+78	改良型推進剤 (SP.W) S	Advanced Propulsion (SP.W) S	40	SP.M	SPM-S			ARMS	5		
+79	改良型推進剤 (SP.W) M	Advanced Propulsion (SP.W) M	65	SP.M	SPM-S			ARMS	7		
+80	改良型推進剤 (SP.W) L	Advanced Propulsion (SP.W) L	90	SP.M	SPM-S			ARMS	9		
+187	軽量型推進剤 (SP.W)	Lightweight Propulsion (SP.W)	55	SP.M	SPM-S			ARMS	4		
+81	改良型目標識別回路 (SP.W) S	Advanced Target Awareness Circuit (SP.W) S	40	SP.M	SPM-R			ARMS	7		
+82	改良型目標識別回路 (SP.W) M	Advanced Target Awareness Circuit (SP.W) M	65	SP.M	SPM-R			ARMS	9		
+83	改良型目標識別回路 (SP.W) L	Advanced Target Awareness Circuit (SP.W) L	90	SP.M	SPM-R			ARMS	11		
+188	軽量型目標識別回路 (SP.W)	Lightweight Target Awareness Circuit (SP.W)	55	SP.M	SPM-R			ARMS	6		
+93	ミサイル用追加改修キット (SP.W) S	Missile Enhancement Kit (SP.W) S	100	SP.M	SPM-K			ARMS	9	1	
+94	ミサイル用追加改修キット (SP.W) M	Missile Enhancement Kit (SP.W) M	145	SP.M	SPM-K			ARMS	12	2	
+95	ミサイル用追加改修キット (SP.W) L	Missile Enhancement Kit (SP.W) L	190	SP.M	SPM-K			ARMS	15	3	
+156	高精度シーカー (SP.W) S	High Precision Seeker (SP.W) S	65	SP.M	SPM-L			ARMS	9		
+157	高精度シーカー (SP.W) M	High Precision Seeker (SP.W) M	90	SP.M	SPM-L			ARMS	11		
+158	高精度シーカー (SP.W) L	Missile Range UP (SP.W) L	120	SP.M	SPM-L			ARMS	13		
+87	高燃焼爆薬 (SP.W) S	High Combustion Explosive (SP.W) S	40	SP.B	SPB-E			ARMS	7	1	
+88	高燃焼爆薬 (SP.W) M	High Combustion Explosive (SP.W) M	65	SP.B	SPB-E			ARMS	9	2	
+89	高燃焼爆薬 (SP.W) L	High Combustion Explosive (SP.W) L	90	SP.B	SPB-E			ARMS	11	3	
+90	改良型ハードポイント (SP.W) S	Advanced Hard Points (SP.W) S	40	SP.B	SPB-R			ARMS	7		
+91	改良型ハードポイント (SP.W) M	Advanced Hard Points (SP.W) M	65	SP.B	SPB-R			ARMS	9		
+92	改良型ハードポイント (SP.W) L	Advanced Hard Points (SP.W) L	90	SP.B	SPB-R			ARMS	11		
+96	投下爆弾用追加改修キット (SP.W) S	Bomb Enhancement Kit (SP.W) S	55	SP.B	SPB-K			ARMS	10	1	
+97	投下爆弾用追加改修キット (SP.W) M	Bomb Enhancement Kit (SP.W) M	100	SP.B	SPB-K			ARMS	13	2	
+98	投下爆弾用追加改修キット (SP.W) L	Bomb Enhancement Kit (SP.W) L	145	SP.B	SPB-K			ARMS	16	3	
+84	改良型可動フィン (SP.W) S	Advanced Mobile Fin (SP.W) S	65	SP.M	SPM-H			ARMS	5		
+85	改良型可動フィン (SP.W) M	Advanced Mobile Fin (SP.W) M	90	SP.M	SPM-H			ARMS	8		
+86	改良型可動フィン (SP.W) L	Advanced Mobile Fin (SP.W) L	130	SP.M	SPM-H			ARMS	12		
+189	軽量型可動フィン (SP.W)	Lightweight Mobile Fin (SP.W)	80	SP.M	SPM-H			ARMS	4		
+99	SAAM用誘導波ブースタ S	SAAM Guided Wave Booster S	40	SP.M	SAAM-B	SAAM		ARMS	5		
+100	SAAM用誘導波ブースタ M	SAAM Guided Wave Booster M	65	SP.M	SAAM-B	SAAM		ARMS	7		
+101	UGB用追加爆薬 S	Enhanced UGB Explosives S	40	SP.B	UGB-W	UGB,UGBS,MUGB		ARMS	5		
+102	UGB用追加爆薬 M	Enhanced UGB Explosives M	65	SP.B	UGB-W	UGB,UGBS,MUGB		ARMS	7		
+# 103	UGB用追加爆薬 L	Enhanced UGB Explosives L	90	SP.B	UGB-W	UGB,UGBS,MUGB		ARMS	7		
+104	LAGM用追加爆薬 S	Enhanced LAGM Explosives S	40	SP.M	LAGM-W	LAGM,MAGM		ARMS	5		
+105	LAGM用追加爆薬 M	Enhanced LAGM Explosives M	65	SP.M	LAGM-W	LAGM,MAGM		ARMS	7		
+# 106	LAGM用追加爆薬 L	Enhanced LAGM Explosives L	90	SP.M	LAGM-W	LAGM,MAGM		ARMS	7		
+107	RKTL用追加噴射剤 S	Additional RKTL Propellant S	40	SP.O	RKTL-L	RKTL,RKTLS		ARMS	5		
+108	RKTL用追加噴射剤 M	Additional RKTL Propellant M	65	SP.O	RKTL-L	RKTL,RKTLS		ARMS	7		
+# 109	RKTL用追加噴射剤 L	Additional RKTL Propellant L	90	SP.O	RKTL-L	RKTL,RKTLS		ARMS	7		
+110	SOD用新型放出メカニクス S	New SOD Release Mechanism S	40	SP.B	SOD-M	SOD,MSOD		ARMS	5		
+111	SOD用新型放出メカニクス M	New SOD Release Mechanism M	65	SP.B	SOD-M	SOD,MSOD		ARMS	7		
+# 112	SOD用新型放出メカニクス L	New SOD Release Mechanism L	90	SP.B	SOD-M	SOD,MSOD		ARMS	7		
+113	GPB用複合型誘導装置 S	Combined GPB Guidance System S	40	SP.B	GPB-L	GPB,EGPB		ARMS	5		
+114	GPB用複合型誘導装置 M	Combined GPB Guidance System M	65	SP.B	GPB-L	GPB,EGPB		ARMS	7		
+# 115	GPB用複合型誘導装置 L	Combined GPB Guidance System L	90	SP.B	GPB-L	GPB,EGPB		ARMS	7		
+168	GPB用追加爆薬 S	GPB Additional Explosives S	40	SP.B	GPB-D	GPB,EGPB		ARMS	5	2	
+169	GPB用追加爆薬 M	GPB Damage UP M	65	SP.B	GPB-D	GPB,EGPB		ARMS	7	4	
+# 170	GPB用追加爆薬 L	GPB Additional Explosives L	90	SP.B	GPB-D	GPB,EGPB		ARMS	7	6	
+116	FAEB用新型爆薬 S	Enhanced FAEB Explosives S	40	SP.B	FAEB-W	FAEB		ARMS	5		
+117	FAEB用新型爆薬 M	Enhanced FAEB Explosives M	65	SP.B	FAEB-W	FAEB		ARMS	7		
+# 118	FAEB用新型爆薬 L	Enhanced FAEB Explosives L	90	SP.B	FAEB-W	FAEB		ARMS	7		
+119	SFFS用新型拡散メカニクス S	New SFFS Release Mechanism S	40	SP.B	SFFS-M	SFFS		ARMS	5		
+120	SFFS用新型拡散メカニクス M	New SFFS Release Mechanism M	65	SP.B	SFFS-M	SFFS		ARMS	7		
+# 121	SFFS用新型拡散メカニクス L	New SFFS Release Mechanism L	90	SP.B	SFFS-M	SFFS		ARMS	5		
+131	HPAA用追加爆薬 S	Additional HPAA Explosives S	40	SP.M	HPAA-D	HPAA,MHPM		ARMS	5	2	
+132	HPAA用追加爆薬 M	Additional HPAA Explosives M	65	SP.M	HPAA-D	HPAA,MHPM		ARMS	7	4	
+# 133	HPAA用追加爆薬 L	Additional HPAA Explosives L	90	SP.M	HPAA-D	HPAA,MHPM		ARMS	5	6	
+125	HVAA用改良型誘導装置 S	Advanced HVAA Guidance System S	40	SP.M	HVAA-L	HVAA		ARMS	5		
+126	HVAA用改良型誘導装置 M	Advanced HVAA Guidance System M	65	SP.M	HVAA-L	HVAA		ARMS	7		
+# 127	HVAA用改良型誘導装置 L	Advanced HVAA Guidance System L	90	SP.M	HVAA-L	HVAA		ARMS	5		
+134	HCAA用最適化火器管制システム S	HCAA Optimized Fire Control System S	40	SP.M	HCAA-R	HCAA		ARMS	5		
+135	HCAA用最適化火器管制システム M	HCAA Optimized Fire Control System M	65	SP.M	HCAA-R	HCAA		ARMS	7		
+# 136	HCAA用最適化火器管制システム L	HCAA Optimized Fire Control System L	90	SP.M	HCAA-R	HCAA		ARMS	5		
+122	QAAM用新型誘導システム S	QAAM Updated Guidance System S	40	SP.M	QAAM-H	QAAM		ARMS	5		
+123	QAAM用新型誘導システム M	QAAM Updated Guidance System M	65	SP.M	QAAM-H	QAAM		ARMS	7		
+# 124	QAAM用新型誘導システム L	QAAM Updated Guidance System L	90	SP.M	QAAM-H	QAAM		ARMS	5		
+128	TLS用高効率燃料 S	TLS High Efficiency Fuel S	40	SP.O	TLS-T	TLS		ARMS	5		17
+129	TLS用高効率燃料 M	TLS High Efficiency Fuel M	65	SP.O	TLS-T	TLS		ARMS	7		27
+# 130	TLS用高効率燃料 L	TLS High Efficiency Fuel L	90	SP.O	TLS-T	TLS		ARMS	5		37
+159	LACM用改良型弾頭 S	LACM Modified Warhead S	40	SP.M	LACM-W	LACM		ARMS	7	-6.25	
+160	LACM用改良型弾頭 M	LACM Blast UP M	65	SP.M	LACM-W	LACM		ARMS	9	-6.875	
+# 161	LACM用改良型弾頭 L	LACM Modified Warhead L	90	SP.M	LACM-W	LACM		ARMS	11	-7.5	
+171	LASM用新型推進システム S	LASM New Propulsion System S	40	SP.M	LASM-L	LASM		ARMS	5		
+172	LASM用新型推進システム M	LASM Range UP M	65	SP.M	LASM-L	LASM		ARMS	7		
+# 173	LASM用新型推進システム L	LASM New Propulsion System L	90	SP.M	LASM-L	LASM		ARMS	9		
+174	LAAM用改良型ロケットモーター S	LAAM Enhanced Rocket Motor S	40	SP.M	LAAM-L	LAAM		ARMS	5		
+175	LAAM用改良型ロケットモーター M	LAAM Range UP M	65	SP.M	LAAM-L	LAAM		ARMS	7		
+# 176	LAAM用改良型ロケットモーター L	LAAM Enhanced Rocket Motor L	90	SP.M	LAAM-L	LAAM		ARMS	9		
+177	MGP用新型砲弾 S	MGP New Munitions S	40	SP.O	MGP-D	MGP		ARMS	6		
+178	MGP用新型砲弾 M	MGP New Munitions M	65	SP.O	MGP-D	MGP		ARMS	8		
+# 179	MGP用新型砲弾 L	MGP New Munitions L	90	SP.O	MGP-D	MGP		ARMS	10		
+137	新品のフライトスーツ	New Flight Suit	15	MISC				MISC	7		
+138	耐ショックスーツ	Shock Resistant Suit	15	MISC				MISC	7		
+139	リンク通信用高出力アンテナ	Link Communications High Output Antenna	40	MISC				MISC	9		
+142	電子戦用高出力アンテナ	Electronic Warfare High Output Antenna	65	SP.O		ECM,ESM		MISC	9		
+143	電子戦用省電力アンテナ	Electronic Warfare Power Conserving Antenna	90	SP.O		ECM,ESM		MISC	13		
+180	電子戦用高放射効率アンテナ	Electronic Warfare Radiation Efficency Antenna	90	SP.O		ECM,ESM		MISC	13		
+140	対ステルス用ハイパワーレーダー	Anti-Stealth High Power Radar	115	MISC				MISC	19		
+141	レーダー警戒装置拡張パネル	Radar Alert Expansion Panel	90	MISC				MISC	11		

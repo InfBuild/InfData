@@ -1,0 +1,228 @@
+# InfData 敵情報
+# Licensed under CC0
+# http://creativecommons.org/publicdomain/zero/1.0/deed.ja
+#
+# Name	敵の名前です。
+# Role	対空目標であるか対地目標であるかを表します。A (空), G (地) のいずれかです。
+# Color	敵の色です。Y (黄), O (橙), R (赤), TGT のいずれかです。
+# Score	撃破した際に得られるスコアです。
+# HP	敵の耐久力です。
+# Soft Target	TRUE の場合、ロールを問わず Fighter の兵装倍率を使用することを表します。
+# Hard Multiplier	HARD ミッションにて耐久力に掛けられる倍率です。デフォルトは 1.2 を使用します。
+# Weakness	特効率が適用される兵装の一覧です。
+# Strongness	耐性率が適用される兵装の一覧です。
+# Stages	敵が出現するミッションの一覧です。
+Name	Role	Color	Score	HP	Soft Target	Hard Multiplier	Weakness	Strongness	Stages
+Mir-2000-5	A	Y	600	900					Paris
+AV-8B	A	Y	800	1000					Tokyo,EGS
+F-14D	A	Y	900	1400					Tokyo,Aerospace,Pipeline,Alps,B7R,Adriatic,EAS
+F/A-18F	A	O	1700	1400					Tokyo,Aerospace,Pipeline,Weapons,B7R,ESS
+Gripen C	A	O	1000	1500					Dubai,Alps,Paris
+Su-27	A	O	1400	1500					Weapons,Moscow,B7R,EAS
+Su-33	A	O	1400	1500					Pipeline
+Rafale M	A	O	1700	1500					Tokyo,Weapons,Paris
+F-15E	A	R	1800	1500					Tokyo,Alps
+MiG-29	A	O	1300	1600					Tokyo,Aerospace,Dubai,Alps,Weapons,Moscow,B7R,Adriatic,EAS
+F-15C	A	O	1300	1600					Pipeline,EAS
+Typhoon	A	R	2500	1800					Tokyo,Pipeline,Alps,B7R,Paris
+F-15 S/MTD	A	R	2700	1900					Tokyo,Pipeline,Alps,B7R,Adriatic
+SR-71	A	R	6000	2000	TRUE				Pipeline
+MiG-31	A	R	2000	2000					Moscow,Weapons,B7R,Adriatic
+F-35B	A	R	2800	2000					Aerospace,ESS
+YF-23	A	R	3100	2200					Dubai,B7R,Paris
+Su-47	A	R	3200	2400					Moscow,Weapons,B7R,Adriatic
+Su-37	A	R	3200	2400					Weapons,Adriatic,AerospaceHard
+T-50	A	R	3500	2400					Aerospace,Moscow,Weapons,B7R,Adriatic
+F-22A	A	R	3500	2400					Tokyo,Aerospace,Pipeline,Dubai,Alps,Paris
+Il-76	A	R	2000	8000					Aerospace,Dubai,Weapons,B7R
+F-22A	A	TGT	4800	9600					EAS
+T-50	A	TGT	4800	9600					EAS
+Tu-160	A	R	3200	11000			SAAM		Moscow,EGS
+Tu-95	A	R	2400	12000					Alps,EAS
+AH-64	A	TGT	1200	1000					Pipeline,Weapons,Avalon,Adriatic,Paris
+Ka-50	A	TGT	1300	1200					Pipeline,Weapons,Avalon,Adriatic,Paris
+METEORITE	A	TGT	1300	1600		1			Tokyo
+Su-24MP (LOUDMOUTH)	A	TGT	2200	1800					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic
+UCAV	A	O	1600	2100					Tokyo,Aerospace,Pipeline,Adriatic
+MiG-29 (LOUDMOUTH)	A	TGT	2600	2300					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic
+F-35B (WILDFIRE)	A	TGT	3000	3000					Dubai,Paris
+METEORITE	A	TGT	2800	3200		1			Tokyo
+F-35B (SHADOW)	A	TGT	3000	3300					Tokyo,Aerospace,Pipeline,Dubai,Alps,Weapons,B7R,Adriatic,Paris
+F-14D (TITAN)	A	TGT	3600	3600					Tokyo,Aerospace,Pipeline,Dubai,Alps,Weapons,B7R
+CRUISE MISSILE	A	TGT	3200	3600	TRUE				Dubai
+YF-23 (SHADOW)	A	TGT	4000	4000					Tokyo,Aerospace,Pipeline,Dubai,Alps,Weapons,B7R,Adriatic,Paris
+Su-35 (SCYLLA)	A	TGT	4000	4000					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Weapons,B7R,Adriatic
+F-15C (SNIPER)	A	TGT	2800	4000					Tokyo,Aerospace,Pipeline,Dubai,Alps,Weapons,B7R,Paris
+MiG-31 (QUICKSHOT)	A	TGT	4000	4400					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Weapons,B7R,Paris
+T-50 (SPECIALIST)	A	TGT	4800	4800					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,B7R
+T-50 (SPECIALIST)	A	TGT	4800	4800		1			Weapons
+F-22A (SHADOW)	A	TGT	4800	4800					Tokyo,Aerospace,Pipeline,Dubai,Alps,Weapons,B7R,Adriatic,Paris
+Il-76 (LOUDMOUTH)	A	TGT	3700	5100					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic
+METEORITE	A	TGT	5600	5200		1			Tokyo
+UAV MQ-90L	A	TGT	1600	7200	TRUE				Moscow,B7R,Adriatic,Paris
+B-2A	A	TGT	4000	8000					Aerospace
+ICBM	A	TGT	5000	10000	TRUE				Alps,Moscow,Weapons
+QFA-44	A	TGT	2400	21600	TRUE				Moscow,B7R,Adriatic,Paris
+SMOKESTACK	G	Y	500	500					Pipeline
+TANK	G	Y	500	600				FAEB,SFFS	Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,Paris
+HELIPORT	G	Y	500	800					Pipeline
+FUEL TANK	G	Y	400	900					Pipeline
+RADAR VEHICLE	G	Y	700	1200			FAEB,SFFS		Tokyo,Pipeline,Dubai,Alps,Moscow,Weapons,Adriatic,Paris,EGS
+RADIO TOWER	G	Y	700	1200					Alps,Weapons,Adriatic
+RKTL TRUCK	G	O	1300	1300			FAEB,SFFS		Tokyo,Dubai,Alps,Moscow,Avalon,Adriatic,Paris,EGS
+TANK TRUCK	G	O	1400	1400			FAEB,SFFS		Alps,Avalon
+XSAM	G	O	1600	1600					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,Paris,EGS,Excalibur1,Excalibur2,Excalibur3,Excalibur4
+BM CARRIER	G	R	1800	1600			FAEB,SFFS,SOD		Alps,Moscow,Weapons,Avalon
+REFINERY	G	O	1000	1600					Pipeline
+OIL PLATFORM	G	O	1000	1600					Pipeline
+HOVERCRAFT	G	O	1200	1600					Aerospace,Pipeline,Weapons,Adriatic
+JAMMER	G	R	1800	1600					Avalon
+BUNKER	G	O	1400	2000			GPB,EGPB	SFFS	Dubai,Alps
+AD TANK	G	R	2200	2000			LAGM,SOD,LACM	FAEB,SFFS	Tokyo,Aerospace,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,Paris,EGS,Excalibur1,Excalibur2,Excalibur3,Excalibur4
+CORVETTE	G	O	1500	2000			LASM	FAEB,SFFS	Tokyo,Aerospace,Pipeline,Dubai,Adriatic,EGS
+GUN TOWER	G	O	1700	2500			GPB,EGPB	FAEB,SFFS	Alps,Avalon
+PILLBOX	G	R	1800	2500			GPB,EGPB	FAEB,SFFS	Alps,Avalon
+MSL HOVERCRAFT	G	R	2200	2500			LASM		Aerospace,Pipeline,Dubai,ESS
+FRIGATE	G	R	3000	2500			LASM	FAEB,SFFS	Tokyo,Aerospace,ESS
+AMD TRAIN	G	R	2600	2800				FAEB,SFFS	Tokyo,Moscow,Paris,EGS
+HVY ARTILLERY	G	R	1800	3200			LAGM,LACM		Tokyo,Dubai,Alps,Moscow,Weapons,Paris,EGS
+MAIN PLATFORM	G	R	2000	3200					Pipeline
+ARMORY	G	R	2000	3200					Weapons
+DESTROYER	G	R	2200	3300			LASM	FAEB,SFFS	Aerospace,Pipeline,Dubai,Adriatic
+LANDING SHIP	G	R	3200	3300			LASM	FAEB,SFFS	Aerospace,Pipeline,Adriatic,ESS
+ARMS FACILITY	G	R	2500	3600					Weapons
+BUNKER (Avalon)	G	O	1500	4000				SFFS	Avalon
+FORTRESS	G	R	2500	4400			GPB,EGPB	FAEB,SFFS	Alps,Adriatic
+GUN TOWER (Avalon)	G	R	2800	5000			GPB,EGPB		Avalon
+PILLBOX (Adriatic)	G	R	1800	5000			GPB,EGPB	FAEB,SFFS	Adriatic
+AEGIS	G	R	4000	5100			LASM	FAEB,SFFS	Aerospace,Pipeline,Dubai,Adriatic,ESS
+CRUISER	G	R	4800	5300			LASM	FAEB,SFFS	Tokyo,Aerospace,Pipeline,Dubai,Adriatic
+MISSILE SILO	G	R	4800	6000					Weapons
+COAST GUN	G	O	1500	6400			GPB,EGPB	FAEB,SFFS	Adriatic
+COAST FORTRESS	G	R	5000	8800			GPB,EGPB	FAEB,SFFS	Adriatic
+ICBM (Avalon)	G	R	4000	10000					Avalon
+AIRCRAFT CARRIER	G	R	7800	12000			LASM	FAEB,SFFS	Aerospace,Pipeline,ESS
+FOB	G	R	5000	16000					Adriatic
+RADAR SITE	G	TGT	2500	3200					Weapons,Avalon
+ECM VEHICLE	G	TGT	2200	2800			FAEB,SFFS		Moscow,Paris
+BATTLE CRUISER	G	TGT	7200	9600			LASM	FAEB,SFFS	Aerospace,Pipeline,ESS
+SUB CARRIER	G	TGT	24000	120000			LASM		Tokyo,Aerospace,Pipeline,Adriatic
+STEALTH DESTROYER	G	TGT	8800	13400			LASM	FAEB,SFFS	Tokyo,ESS
+AA GUN	A	TGT	600	1200	TRUE				MobyDick1
+AAM	A	O	1200	1600	TRUE				MobyDick1
+FLAK GUN	A	TGT	1000	2000	TRUE				MobyDick1
+COCKPIT (Aigaion)	A	TGT	2000	2000	TRUE				MobyDick1
+ENGINE (Gyges, Kottos)	A	TGT	1300	2400	TRUE				MobyDick1
+ENGINE (Aigaion)	A	TGT	1440	2400	TRUE				MobyDick1
+ARRAY	A	TGT	1300	2400	TRUE				MobyDick1
+COCKPIT (Gyges, Kottos)	A	O	1560	2400	TRUE				MobyDick1
+AA GUN	A	TGT	600	1800	TRUE				MobyDick2
+AAM (Gyges)	A	O	1200	2400	TRUE				MobyDick2
+FLAK GUN	A	TGT	1000	3000	TRUE				MobyDick2
+COCKPIT (Aigaion)	A	TGT	2000	3000	TRUE				MobyDick2
+CORE	A	TGT	4000	3000	TRUE				MobyDick2
+AAM (Aigaion)	A	O	1200	3600	TRUE				MobyDick2
+ENGINE (Gyges, Kottos)	A	TGT	1300	3600	TRUE				MobyDick2
+ENGINE (Aigaion)	A	TGT	1440	3600	TRUE				MobyDick2
+ARRAY	A	O	1300	3600	TRUE				MobyDick2
+COCKPIT (Gyges, Kottos)	A	O	1560	3600	TRUE				MobyDick2
+AA GUN	A	TGT	600	2400	TRUE				MobyDick3
+AAM	A	O	1200	3200	TRUE				MobyDick3
+LASER UNIT	A	O	1760	3200	TRUE				MobyDick3
+FLAK GUN	A	TGT	1000	4000	TRUE				MobyDick3
+COCKPIT (Aigaion)	A	TGT	2000	4000	TRUE				MobyDick3
+CORE	A	TGT	4000	4000	TRUE				MobyDick3
+ENGINE (Gyges, Kottos)	A	TGT	1300	4800	TRUE				MobyDick3
+ENGINE (Aigaion)	A	TGT	1440	4800	TRUE				MobyDick3
+ARRAY	A	O	1300	4800	TRUE				MobyDick3
+COCKPIT (Gyges, Kottos)	A	O	1560	4800	TRUE				MobyDick3
+AA GUN	A	TGT	600	2600	TRUE				MobyDick4
+AAM	A	O	1200	3600	TRUE				MobyDick4
+LASER UNIT	A	O	1760	4800	TRUE				MobyDick4
+FLAK GUN	A	TGT	1000	4400	TRUE				MobyDick4
+COCKPIT (Aigaion)	A	TGT	2000	4400	TRUE				MobyDick4
+CORE	A	TGT	4000	4400	TRUE				MobyDick4
+ENGINE (Gyges, Kottos)	A	TGT	1300	5200	TRUE				MobyDick4
+ENGINE (Aigaion)	A	TGT	1440	5200	TRUE				MobyDick4
+ARRAY	A	O	1300	5200	TRUE				MobyDick4
+COCKPIT (Gyges, Kottos)	A	O	1560	5200	TRUE				MobyDick4
+UAV MQ-90L	A	O	1600	4800	TRUE				MobyDick4,Stonehenge4
+QFA-44	A	TGT	2400	14400	TRUE				MobyDick4,Stonehenge4
+MiG-31	A	TGT	2000	2000					Stonehenge1
+JAMMER (Small)	G	TGT	1200	3600					Stonehenge1
+JAMMER (Center)	G	TGT	4800	10800					Stonehenge1
+STONEHENGE	G	TGT	8000	14400					Stonehenge1
+MiG-31	A	TGT	2000	2000					Stonehenge2
+JAMMER (Small)	G	TGT	1200	3600					Stonehenge2
+JAMMER (Center)	G	TGT	4800	16200					Stonehenge2
+STONEHENGE	G	TGT	8000	21600					Stonehenge2
+T-50	A	TGT	3500	2400					Stonehenge3
+COCKPIT	A	TGT	3000	2000	TRUE				Stonehenge3
+ENGINE	A	TGT	2000	2400	TRUE				Stonehenge3
+ARRAY	A	TGT	1700	2600	TRUE				Stonehenge3
+JAMMER (Small)	G	TGT	1200	4000					Stonehenge3
+JAMMER (Center)	G	TGT	4800	16200					Stonehenge3
+STONEHENGE	G	TGT	8000	21600					Stonehenge3
+COCKPIT	A	TGT	3000	2000	TRUE				Stonehenge4
+ENGINE	A	TGT	2000	2400	TRUE				Stonehenge4
+ARRAY	A	TGT	1700	2600	TRUE				Stonehenge4
+JAMMER (Small)	G	TGT	1200	4000					Stonehenge4
+JAMMER (Center)	G	TGT	4800	24000					Stonehenge4
+STONEHENGE	G	TGT	8000	32000					Stonehenge4
+MAG PANEL	A	TGT	1200	1200	TRUE				SOLG1
+Su-47	A	O	1500	1600					SOLG1
+KEW SHELL	A	TGT	2000	1800	TRUE				SOLG1
+LASER UNIT	A	TGT	1700	5000	TRUE				SOLG1
+SAW	A	TGT	1800	5600	TRUE				SOLG1
+SP SHELL	A	TGT	5000	6400	TRUE				SOLG1
+CORE UNIT	A	TGT	3000	12000	TRUE				SOLG1
+Su-47	A	O	1500	1600					SOLG2
+MAG PANEL	A	TGT	1200	1800	TRUE				SOLG2
+KEW SHELL	A	TGT	2000	2700	TRUE				SOLG2
+LASER UNIT	A	TGT	1700	7500	TRUE				SOLG2
+SAW	A	TGT	1800	8400	TRUE				SOLG2
+SP SHELL	A	TGT	5000	9600	TRUE				SOLG2
+CORE UNIT	A	TGT	3000	18000	TRUE				SOLG2
+F-22A	A	O	1500	1600					SOLG3,SOLG4
+MAG PANEL	A	TGT	1200	2400	TRUE				SOLG3,SOLG4
+KEW SHELL	A	TGT	2000	3600	TRUE				SOLG3,SOLG4
+ADFX-01	A	TGT	4000	6000					SOLG3,SOLG4
+LASER UNIT	A	TGT	1700	10000	TRUE				SOLG3,SOLG4
+SAW	A	TGT	1800	11200	TRUE				SOLG3,SOLG4
+SP SHELL	A	TGT	5000	12800	TRUE				SOLG3,SOLG4
+CORE UNIT	A	TGT	3000	24000	TRUE				SOLG3,SOLG4
+UAV MQ-90L	A	O	1600	4800					SOLG4
+QFA-44	A	TGT	2400	14400					SOLG4
+JAMMER	G	TGT	6000	6000					Excalibur1
+PWR GEN	G	TGT	5000	8000					Excalibur1
+GUN TOWER	G	TGT	2000	2600					Excalibur1
+TARGETING TOWER	G	TGT	4000	6000					Excalibur1
+RTLS	G	R	1800	8000					Excalibur1
+EXCALIBUR (Unit)	G	TGT	2400	50000					Excalibur1
+EXCALIBUR (Tower)	G	TGT	4000	130000					Excalibur1
+TLS REFLECTOR	G	O	1200	1600					Excalibur1
+TLS REFLECTOR	A	O	1200	1600					Excalibur1
+MQ-90	A	O	1700	4800					Excalibur1
+JAMMER	G	TGT	6000	9000					Excalibur2
+PWR GEN	G	TGT	5000	12000					Excalibur2
+GUN TOWER	G	TGT	2000	3900					Excalibur2
+TARGETING TOWER	G	TGT	4000	9000					Excalibur2
+RTLS	G	R	1800	12000					Excalibur2
+EXCALIBUR (Unit)	G	TGT	2400	75000					Excalibur2
+EXCALIBUR (Tower)	G	TGT	4000	195000					Excalibur2
+TLS REFLECTOR	G	O	1200	2400					Excalibur2
+TLS REFLECTOR	A	O	1200	2400					Excalibur2
+MQ-90	A	O	1700	4800					Excalibur2
+JAMMER	G	TGT	6000	12000					Excalibur3,Excalibur4
+PWR GEN	G	TGT	5000	16000					Excalibur3,Excalibur4
+GUN TOWER	G	TGT	2000	5200					Excalibur3,Excalibur4
+TARGETING TOWER	G	TGT	4000	12000					Excalibur3,Excalibur4
+RTLS	G	R	1800	16000					Excalibur3,Excalibur4
+EXCALIBUR (Unit)	G	TGT	2400	100000					Excalibur3,Excalibur4
+EXCALIBUR (Tower)	G	TGT	4000	260000					Excalibur3,Excalibur4
+TLS REFLECTOR	G	O	1200	3200					Excalibur3,Excalibur4
+TLS REFLECTOR	A	O	1200	3200					Excalibur3,Excalibur4
+MQ-90	A	O	1700	4800					Excalibur3,Excalibur4
+CFA-44	A	TGT	4000	10000					Excalibur3,Excalibur4
+UAV MQ-90L	A	O	1600	4800					Excalibur4
+QFA-44	A	TGT	2400	14400					Excalibur4

@@ -1,0 +1,49 @@
+# InfData ミッション情報
+# Licensed under CC0
+# http://creativecommons.org/publicdomain/zero/1.0/deed.ja
+#
+# ID	項目ごとに重複しない数値です。ミッションの識別にお使いいただけます。
+# Key	略称です。EnemyList にて出現ミッションを一覧するために使用されています。
+# Name	ミッションの名前です。
+# HARD	TRUE の場合、HARD ミッションであることを表します。
+# Original	HARD ミッションの元になるミッションです。
+# Special Raid	TRUE の場合、非常招集 ミッションであることを表します。
+ID	Key	Name	HARD	Original	Special Raid
+1	Tokyo	Tokyo Martial Law			
+2	Aerospace	Aerospace Center Defense			
+3	Pipeline	Pipeline Destruction			
+4	Dubai	Dubai Night Assault			
+5	Alps	Alps Air Corridor			
+6	Moscow	Moscow Battle			
+7	Weapons	Weapons Base Assault			
+8	Avalon	Avalon Dam Invasion			
+9	B7R	Area B7R Dogfight Battle			
+10	Adriatic	Adriatic Sea Landing Operation			
+11	Paris	Paris Liberation War			
+101	TokyoHard	Tokyo Martial Law (HARD)	TRUE	Tokyo	
+102	AerospaceHard	Aerospace Center Defense (HARD)	TRUE	Aerospace	
+103	PipelineHard	Pipeline Destruction (HARD)	TRUE	Pipeline	
+104	DubaiHard	Dubai Night Assault (HARD)	TRUE	Dubai	
+105	AlpsHard	Alps Air Corridor (HARD)	TRUE	Alps	
+106	MoscowHard	Moscow Battle (HARD)	TRUE	Moscow	
+107	WeaponsHard	Weapons Base Assault (HARD)	TRUE	Weapons	
+109	B7RHard	Area B7R Dogfight Battle (HARD)	TRUE	B7R	
+201	MobyDick1	Moby Dick Pursuit I			TRUE
+202	MobyDick2	Moby Dick Pursuit II			TRUE
+203	MobyDick3	Moby Dick Pursuit III			TRUE
+204	MobyDick4	Moby Dick Pursuit IV			TRUE
+211	Stonehenge1	STONEHENGE RETURN I			TRUE
+212	Stonehenge2	STONEHENGE RETURN II			TRUE
+213	Stonehenge3	STONEHENGE RETURN III			TRUE
+214	Stonehenge4	STONEHENGE RETURN IV			TRUE
+221	SOLG1	Satellite Interception I			TRUE
+222	SOLG2	Satellite Interception II			TRUE
+223	SOLG3	Satellite Interception III			TRUE
+224	SOLG4	Satellite Interception IV			TRUE
+231	Excalibur1	Excalibur Onslaught I			TRUE
+232	Excalibur2	Excalibur Onslaught II			TRUE
+233	Excalibur3	Excalibur Onslaught III			TRUE
+234	Excalibur4	Excalibur Onslaught IV			TRUE
+301	EGS	EMERGENCY GROUND STRIKE			TRUE
+302	EAS	EMERGENCY AIR STRIKE			TRUE
+303	ESS	EMERGENCY SEA STRIKE			TRUE
