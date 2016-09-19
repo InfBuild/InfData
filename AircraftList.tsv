@@ -1,20 +1,3 @@
-# InfData 機体情報
-# Licensed under CC0
-# http://creativecommons.org/publicdomain/zero/1.0/deed.ja
-#
-# ID	項目ごとに重複しない数値です。機体の識別にお使いいただけます。
-# Name	機体名です。
-# Role	ロールです。F, M, A, B, PF のいずれかです。
-# Base Cst.	機体のコストです。ダメージ計算の際には 50 単位で切り上げて扱われます。(525 は 550 として、675 は 700 として計算)
-# Handicap	ダメージ補正値です。ダメージ計算の際に威力補正値に加算されます。
-# Main	主兵装です。デフォルトは MSL を使用します。
-# SP.W 1	1 番目の特殊兵装です。
-# SP.W 2	2 番目の特殊兵装です。
-# SP.W 3	3 番目の特殊兵装です。
-# BODY	BODY スロットの数です。
-# ARMS	ARMS スロットの数です。
-# MISC	MISC スロットの数です。
-# Mod Cost	パーツ換装費用の計算元になる値です。強化型エンジンノズル S の換装費用はこれと同一であり、データリンク換装費用はこれの半分です。
 ID	Name	Role	Base Cst.	Handicap	Main	SP.W 1	SP.W 2	SP.W 3	BODY	ARMS	MISC	Mod Cost
 0	MiG-21bis	F	375	1		HPAA	MGP	SAAM	11	9	10	20
 1	MiG-21bis -SG-	F	625			HPAA	MGP	SAAM	19	21	20	300

@@ -1,13 +1,3 @@
-# InfData ミッション情報
-# Licensed under CC0
-# http://creativecommons.org/publicdomain/zero/1.0/deed.ja
-#
-# ID	項目ごとに重複しない数値です。ミッションの識別にお使いいただけます。
-# Key	略称です。EnemyList にて出現ミッションを一覧するために使用されています。
-# Name	ミッションの名前です。
-# HARD	TRUE の場合、HARD ミッションであることを表します。
-# Original	HARD ミッションの元になるミッションです。
-# Special Raid	TRUE の場合、非常招集 ミッションであることを表します。
 ID	Key	Name	HARD	Original	Special Raid
 1	Tokyo	Tokyo Martial Law			
 2	Aerospace	Aerospace Center Defense			

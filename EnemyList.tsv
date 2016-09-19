@@ -1,17 +1,3 @@
-# InfData 敵情報
-# Licensed under CC0
-# http://creativecommons.org/publicdomain/zero/1.0/deed.ja
-#
-# Name	敵の名前です。
-# Role	対空目標であるか対地目標であるかを表します。A (空), G (地) のいずれかです。
-# Color	敵の色です。Y (黄), O (橙), R (赤), TGT のいずれかです。
-# Score	撃破した際に得られるスコアです。
-# HP	敵の耐久力です。
-# Soft Target	TRUE の場合、ロールを問わず Fighter の兵装倍率を使用することを表します。
-# Hard Multiplier	HARD ミッションにて耐久力に掛けられる倍率です。デフォルトは 1.2 を使用します。
-# Weakness	特効率が適用される兵装の一覧です。
-# Strongness	耐性率が適用される兵装の一覧です。
-# Stages	敵が出現するミッションの一覧です。
 Name	Role	Color	Score	HP	Soft Target	Hard Multiplier	Weakness	Strongness	Stages
 Mir-2000-5	A	Y	600	900					Paris
 AV-8B	A	Y	800	1000					Tokyo,EGS
