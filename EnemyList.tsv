@@ -3,35 +3,35 @@ Mir-2000-5	A	Y	600	900					Paris
 AV-8B	A	Y	800	1000					Tokyo,EGS
 F-14D	A	Y	900	1400					Tokyo,Aerospace,Pipeline,Alps,B7R,Adriatic,EAS
 F/A-18F	A	O	1700	1400					Tokyo,Aerospace,Pipeline,Weapons,B7R,ESS
-Gripen C	A	O	1000	1500					Dubai,Alps,Paris
-Su-27	A	O	1400	1500					Weapons,Moscow,B7R,EAS
+Gripen C	A	O	1000	1500					Dubai,Alps,Retro,Paris
+Su-27	A	O	1400	1500					Weapons,Moscow,B7R,Retro,EAS
 Su-33	A	O	1400	1500					Pipeline
-Rafale M	A	O	1700	1500					Tokyo,Weapons,Paris
+Rafale M	A	O	1700	1500					Tokyo,Weapons,Retro,Paris
 F-15E	A	R	1800	1500					Tokyo,Alps
-MiG-29	A	O	1300	1600					Tokyo,Aerospace,Dubai,Alps,Weapons,Moscow,B7R,Adriatic,EAS
-F-15C	A	O	1300	1600					Pipeline,EAS
+MiG-29	A	O	1300	1600					Tokyo,Aerospace,Dubai,Alps,Weapons,Moscow,B7R,Adriatic,Retro,EAS
+F-15C	A	O	1300	1600					Pipeline,Retro,EAS
 Typhoon	A	R	2500	1800					Tokyo,Pipeline,Alps,B7R,Paris
 F-15 S/MTD	A	R	2700	1900					Tokyo,Pipeline,Alps,B7R,Adriatic
 SR-71	A	R	6000	2000	TRUE				Pipeline
-MiG-31	A	R	2000	2000					Moscow,Weapons,B7R,Adriatic
+MiG-31	A	R	2000	2000					Moscow,Weapons,B7R,Adriatic,RetroHard
 F-35B	A	R	2800	2000					Aerospace,ESS
 YF-23	A	R	3100	2200					Dubai,B7R,Paris
 Su-47	A	R	3200	2400					Moscow,Weapons,B7R,Adriatic
 Su-37	A	R	3200	2400					Weapons,Adriatic,AerospaceHard
 T-50	A	R	3500	2400					Aerospace,Moscow,Weapons,B7R,Adriatic
-F-22A	A	R	3500	2400					Tokyo,Aerospace,Pipeline,Dubai,Alps,Paris
-Il-76	A	R	2000	8000			SAAM		Aerospace,Dubai,Weapons,B7R
+F-22A	A	R	3500	2400					Tokyo,Aerospace,Pipeline,Dubai,Alps,RetroHard,Paris
+Il-76	A	R	2000	8000			SAAM		Aerospace,Dubai,Weapons,B7R,Retro
 Il-76 (Pipeline Runway)	A	TGT	2000	8000			SAAM		Pipeline
 F-22A	A	TGT	4800	9600					EAS
 T-50	A	TGT	4800	9600					EAS
-Tu-160	A	R	3200	11000			SAAM		Moscow,EGS
+Tu-160	A	R	3200	11000			SAAM		Moscow,RetroHard,EGS
 Tu-95	A	R	2400	12000			SAAM		Alps,WeaponsHard,EAS
-AH-64	A	TGT	1200	1000					Pipeline,Weapons,Avalon,Adriatic,Paris
-Ka-50	A	TGT	1300	1200					Pipeline,Weapons,Avalon,Adriatic,Paris
+AH-64	A	TGT	1200	1000					Pipeline,Weapons,Avalon,Adriatic,Retro,Paris
+Ka-50	A	TGT	1300	1200					Pipeline,Weapons,Avalon,Adriatic,Retro,Paris
 METEORITE	A	TGT	1300	1600		1			Tokyo
-Su-24MP (LOUDMOUTH)	A	TGT	2200	1800					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic
+Su-24MP (LOUDMOUTH)	A	TGT	2200	1800					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic,Retro
 UCAV	A	O	1600	2100					Tokyo,Aerospace,Pipeline,Adriatic
-MiG-29 (LOUDMOUTH)	A	TGT	2600	2300					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic
+MiG-29 (LOUDMOUTH)	A	TGT	2600	2300					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic,Retro
 F-35B (WILDFIRE)	A	TGT	3000	3000					Dubai,Paris
 METEORITE	A	TGT	2800	3200		1			Tokyo
 F-35B (SHADOW)	A	TGT	3000	3300					Tokyo,Aerospace,Pipeline,Dubai,Alps,Weapons,B7R,Adriatic,Paris
@@ -44,36 +44,36 @@ MiG-31 (QUICKSHOT)	A	TGT	4000	4400					Tokyo,Aerospace,Pipeline,Dubai,Alps,Mosco
 T-50 (SPECIALIST)	A	TGT	4800	4800					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,B7R
 T-50 (SPECIALIST)	A	TGT	4800	4800		1			Weapons
 F-22A (SHADOW)	A	TGT	4800	4800					Tokyo,Aerospace,Pipeline,Dubai,Alps,Weapons,B7R,Adriatic,Paris
-Il-76 (LOUDMOUTH)	A	TGT	3700	5100			SAAM		Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic
+Il-76 (LOUDMOUTH)	A	TGT	3700	5100			SAAM		Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic,Retro
 METEORITE	A	TGT	5600	5200		1			Tokyo
 UAV MQ-90L	A	TGT	1600	7200	TRUE				Moscow,B7R,Adriatic,Paris
 B-2A	A	TGT	4000	8000			SAAM		Aerospace
 ICBM	A	TGT	5000	10000	TRUE				Alps,Moscow,Weapons
 QFA-44	A	TGT	2400	21600	TRUE				Moscow,B7R,Adriatic,Paris
 SMOKESTACK	G	Y	500	500					Pipeline
-TANK	G	Y	500	600				FAEB,SFFS	Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,Paris
+TANK	G	Y	500	600				FAEB,SFFS	Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,Retro,Paris
 HELIPORT	G	Y	500	800					Pipeline
 FUEL TANK	G	Y	400	900					Pipeline
 FUEL TANK (Weapons Base)	G	Y	500	1000					Weapons
 RADAR VEHICLE	G	Y	700	1200			FAEB,SFFS		Tokyo,Pipeline,Dubai,Alps,Moscow,Weapons,Adriatic,Paris,EGS
 RADIO TOWER	G	Y	700	1200					Alps,Weapons,Adriatic
-RKTL TRUCK	G	O	1300	1300			FAEB,SFFS		Tokyo,Dubai,Alps,Moscow,Avalon,Adriatic,Paris,EGS
+RKTL TRUCK	G	O	1300	1300			FAEB,SFFS		Tokyo,Dubai,Alps,Moscow,Avalon,Adriatic,Retro,Paris,EGS
 TANK TRUCK	G	O	1400	1400			FAEB,SFFS		Alps,Avalon
-XSAM	G	O	1600	1600					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,Paris,EGS,Excalibur1,Excalibur2,Excalibur3,Excalibur4
-BM CARRIER	G	R	1800	1600			FAEB,SFFS,SOD		Alps,Moscow,Weapons,Avalon
+XSAM	G	O	1600	1600					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,RetroHard,Paris,EGS,Excalibur1,Excalibur2,Excalibur3,Excalibur4
+BM CARRIER	G	R	1800	1600			FAEB,SFFS,SOD		Alps,Moscow,Weapons,Avalon,Retro
 REFINERY	G	O	1000	1600					Pipeline
 OIL PLATFORM	G	O	1000	1600					Pipeline
 HOVERCRAFT	G	O	1200	1600					Aerospace,Pipeline,Weapons,Adriatic
 JAMMER	G	R	1800	1600					Avalon
 BUNKER	G	O	1400	2000			GPB,EGPB	SFFS	Dubai,Alps
-AD TANK	G	R	2200	2000			LAGM,SOD,LACM	FAEB,SFFS	Tokyo,Aerospace,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,Paris,EGS,Excalibur1,Excalibur2,Excalibur3,Excalibur4
-CORVETTE	G	O	1500	2000			LASM	FAEB,SFFS	Tokyo,Aerospace,Pipeline,Dubai,Adriatic,EGS
+AD TANK	G	R	2200	2000			LAGM,SOD,LACM	FAEB,SFFS	Tokyo,Aerospace,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,Retro,Paris,EGS,Excalibur1,Excalibur2,Excalibur3,Excalibur4
+CORVETTE	G	O	1500	2000			LASM	FAEB,SFFS	Tokyo,Aerospace,Pipeline,Dubai,Adriatic,Retro,EGS
 GUN TOWER	G	O	1700	2500			GPB,EGPB	FAEB,SFFS	Alps,Avalon
 PILLBOX	G	R	1800	2500			GPB,EGPB	FAEB,SFFS	Alps,Avalon
 MSL HOVERCRAFT	G	R	2200	2500			LASM		Aerospace,Pipeline,Dubai,ESS
 FRIGATE	G	R	3000	2500			LASM	FAEB,SFFS	Tokyo,Aerospace,ESS
-AMD TRAIN	G	R	2600	2800				FAEB,SFFS	Tokyo,Moscow,Paris,EGS
-HVY ARTILLERY	G	R	1800	3200			LAGM,LACM		Tokyo,Dubai,Alps,Moscow,Weapons,Paris,EGS
+AMD TRAIN	G	R	2600	2800				FAEB,SFFS	Tokyo,Moscow,Retro,Paris,EGS
+HVY ARTILLERY	G	R	1800	3200			LAGM,LACM		Tokyo,Dubai,Alps,Moscow,Weapons,Retro,Paris,EGS
 MAIN PLATFORM	G	R	2000	3200					Pipeline
 ARMORY	G	R	2000	3200					Weapons
 DESTROYER	G	R	2200	3300			LASM	FAEB,SFFS	Aerospace,Pipeline,Dubai,Adriatic
@@ -95,7 +95,7 @@ RADAR SITE	G	TGT	2500	3200					Weapons,Avalon
 ECM VEHICLE	G	TGT	2200	2800			FAEB,SFFS		Moscow,Paris
 BATTLE CRUISER	G	TGT	7200	9600			LASM	FAEB,SFFS	Aerospace,Pipeline,ESS
 SUB CARRIER	G	TGT	24000	120000			LASM		Tokyo,Aerospace,Pipeline,Adriatic
-STEALTH DESTROYER	G	TGT	8800	13400			LASM	FAEB,SFFS	Tokyo,ESS
+STEALTH DESTROYER	G	TGT	8800	13400			LASM	FAEB,SFFS	Tokyo,Retro,ESS
 AA GUN	A	TGT	600	1200	TRUE				MobyDick1
 AAM	A	O	1200	1600	TRUE				MobyDick1
 FLAK GUN	A	TGT	1000	2000	TRUE				MobyDick1
