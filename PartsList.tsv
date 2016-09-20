@@ -98,7 +98,7 @@ ID	Name	English Name	Cst.	Category	Group	SP.W	Role	Slot	Slot Usage	Power	Hits
 75	改良型弾頭 (SP.W) S	Advanced Warheads (SP.W) S	40	SP.M	SPM-D			ARMS	7	2	
 76	改良型弾頭 (SP.W) M	Advanced Warheads (SP.W) M	65	SP.M	SPM-D			ARMS	9	4	
 77	改良型弾頭 (SP.W) L	Advanced Warheads (SP.W) L	90	SP.M	SPM-D			ARMS	11	6	
-186	軽量型弾頭 (SP.W)	Lightweight Warheads (SP.W) L	55	SP.M	SPM-D			ARMS	6	3	
+186	軽量型弾頭 (SP.W)	Lightweight Warheads (SP.W)	55	SP.M	SPM-D			ARMS	6	3	
 78	改良型推進剤 (SP.W) S	Advanced Propulsion (SP.W) S	40	SP.M	SPM-S			ARMS	5		
 79	改良型推進剤 (SP.W) M	Advanced Propulsion (SP.W) M	65	SP.M	SPM-S			ARMS	7		
 80	改良型推進剤 (SP.W) L	Advanced Propulsion (SP.W) L	90	SP.M	SPM-S			ARMS	9		
