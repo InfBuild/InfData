@@ -9,7 +9,8 @@ ID	Key	Name	HARD	Original	Special Raid
 8	Avalon	Avalon Dam Invasion			
 9	B7R	Area B7R Dogfight Battle			
 10	Adriatic	Adriatic Sea Landing Operation			
-11	Paris	Paris Liberation War			
+11  Retro  Retro Combat Evaluation			
+12	Paris	Paris Liberation War			
 101	TokyoHard	Tokyo Martial Law (HARD)	TRUE	Tokyo	
 102	AerospaceHard	Aerospace Center Defense (HARD)	TRUE	Aerospace	
 103	PipelineHard	Pipeline Destruction (HARD)	TRUE	Pipeline	
@@ -18,6 +19,7 @@ ID	Key	Name	HARD	Original	Special Raid
 106	MoscowHard	Moscow Battle (HARD)	TRUE	Moscow	
 107	WeaponsHard	Weapons Base Assault (HARD)	TRUE	Weapons	
 109	B7RHard	Area B7R Dogfight Battle (HARD)	TRUE	B7R	
+111	RetroHard	Retro Combat Evaluation (HARD)	TRUE	Retro	
 201	MobyDick1	Moby Dick Pursuit I			TRUE
 202	MobyDick2	Moby Dick Pursuit II			TRUE
 203	MobyDick3	Moby Dick Pursuit III			TRUE
