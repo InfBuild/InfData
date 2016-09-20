@@ -20,11 +20,12 @@ Su-47	A	R	3200	2400					Moscow,Weapons,B7R,Adriatic
 Su-37	A	R	3200	2400					Weapons,Adriatic,AerospaceHard
 T-50	A	R	3500	2400					Aerospace,Moscow,Weapons,B7R,Adriatic
 F-22A	A	R	3500	2400					Tokyo,Aerospace,Pipeline,Dubai,Alps,Paris
-Il-76	A	R	2000	8000					Aerospace,Dubai,Weapons,B7R
+Il-76	A	R	2000	8000			SAAM		Aerospace,Dubai,Weapons,B7R
+Il-76 (Pipeline Runway)	A	TGT	2000	8000			SAAM		Pipeline
 F-22A	A	TGT	4800	9600					EAS
 T-50	A	TGT	4800	9600					EAS
 Tu-160	A	R	3200	11000			SAAM		Moscow,EGS
-Tu-95	A	R	2400	12000					Alps,EAS
+Tu-95	A	R	2400	12000			SAAM		Alps,WeaponsHard,EAS
 AH-64	A	TGT	1200	1000					Pipeline,Weapons,Avalon,Adriatic,Paris
 Ka-50	A	TGT	1300	1200					Pipeline,Weapons,Avalon,Adriatic,Paris
 METEORITE	A	TGT	1300	1600		1			Tokyo
@@ -43,16 +44,17 @@ MiG-31 (QUICKSHOT)	A	TGT	4000	4400					Tokyo,Aerospace,Pipeline,Dubai,Alps,Mosco
 T-50 (SPECIALIST)	A	TGT	4800	4800					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,B7R
 T-50 (SPECIALIST)	A	TGT	4800	4800		1			Weapons
 F-22A (SHADOW)	A	TGT	4800	4800					Tokyo,Aerospace,Pipeline,Dubai,Alps,Weapons,B7R,Adriatic,Paris
-Il-76 (LOUDMOUTH)	A	TGT	3700	5100					Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic
+Il-76 (LOUDMOUTH)	A	TGT	3700	5100			SAAM		Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Adriatic
 METEORITE	A	TGT	5600	5200		1			Tokyo
 UAV MQ-90L	A	TGT	1600	7200	TRUE				Moscow,B7R,Adriatic,Paris
-B-2A	A	TGT	4000	8000					Aerospace
+B-2A	A	TGT	4000	8000			SAAM		Aerospace
 ICBM	A	TGT	5000	10000	TRUE				Alps,Moscow,Weapons
 QFA-44	A	TGT	2400	21600	TRUE				Moscow,B7R,Adriatic,Paris
 SMOKESTACK	G	Y	500	500					Pipeline
 TANK	G	Y	500	600				FAEB,SFFS	Tokyo,Aerospace,Pipeline,Dubai,Alps,Moscow,Weapons,Avalon,Adriatic,Paris
 HELIPORT	G	Y	500	800					Pipeline
 FUEL TANK	G	Y	400	900					Pipeline
+FUEL TANK (Weapons Base)	G	Y	500	1000					Weapons
 RADAR VEHICLE	G	Y	700	1200			FAEB,SFFS		Tokyo,Pipeline,Dubai,Alps,Moscow,Weapons,Adriatic,Paris,EGS
 RADIO TOWER	G	Y	700	1200					Alps,Weapons,Adriatic
 RKTL TRUCK	G	O	1300	1300			FAEB,SFFS		Tokyo,Dubai,Alps,Moscow,Avalon,Adriatic,Paris,EGS
