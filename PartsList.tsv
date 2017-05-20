@@ -184,6 +184,6 @@ ID	Name	English Name	Cst.	Category	Group	SP.W	Role	Slot	Slot Usage	Power	Hits
 139	リンク通信用高出力アンテナ	Link Communications High Output Antenna	40	MISC				MISC	9		
 142	電子戦用高出力アンテナ	Electronic Warfare High Output Antenna	65	SP.O		ECM,ESM		MISC	9		
 143	電子戦用省電力アンテナ	Electronic Warfare Power Conserving Antenna	90	SP.O		ECM,ESM		MISC	13		
-180	電子戦用高放射効率アンテナ	Electronic Warfare Radiation Efficency Antenna	90	SP.O		ECM,ESM		MISC	13		
+180	電子戦用高放射効率アンテナ	Electronic Warfare Radiation Efficiency Antenna	90	SP.O		ECM,ESM		MISC	13		
 140	対ステルス用ハイパワーレーダー	Anti-Stealth High Power Radar	115	MISC				MISC	19		
 141	レーダー警戒装置拡張パネル	Radar Alert Expansion Panel	90	MISC				MISC	11		
